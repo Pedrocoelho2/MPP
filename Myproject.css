@@ -1,0 +1,78 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #b3cde0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    main {
+      background: #5d8aa8;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 70px rgba(0, 0, 50, 0.2);
+      text-align: center;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    input[type="text"] {
+      padding: 8px;
+      margin-right: 10px;
+      width: 250px;
+      border: 1px solid #dbe9f4;
+      border-radius: 4px;
+    }
+    button {
+      position: relative;
+      padding: 10px 20px;
+      border-radius: 7px;
+      border: 1px solid #ffffff;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 2px;
+      background: transparent;
+      color: #ffffff;
+      overflow: hidden;
+      transition: all 0.2s ease-in;
+    }
+    button:hover {
+      background: #336699;
+      box-shadow: 0 0 30px 5px rgba(0, 102, 204, 0.6);
+    }
+    button::before {
+      content: '';
+      display: block;
+      width: 0px;
+      height: 86%;
+      position: absolute;
+      top: 7%;
+      left: 0%;
+      opacity: 0;
+      background: #fff;
+      box-shadow: 0 0 50px 30px #ffffff;
+      transform: skewX(-20deg);
+    }
+    @keyframes sh02 {
+      from { opacity: 0; left: 0%; }
+      50% { opacity: 1; }
+      to { opacity: 0; left: 100%; }
+    }
+    #pais {
+      display: none;
+      margin-top: 20px;
+      padding: 15px;
+      background: #e6f2ff;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    }
+    .error-message {
+      color: #e60026;
+      font-style: italic;
+    }
+    .nationality-message {
+      font-weight: bold;
+      color: #003366;
+    }

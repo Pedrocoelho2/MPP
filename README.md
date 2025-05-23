@@ -44,12 +44,12 @@
     src="https://github-readme-stats.vercel.app/api?username=Pedrocoelho2&show_icons=true&theme=tokyonight&locale=pt-br" 
   />
 
-<img 
-      align="center" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api?username=Pedrocoelho2&show_icons=true&theme=tokyonight&locale=pt-br" 
-  />
+<img height="144em" 
+    align="center" 
+    alt="GitHub analytics" 
+    style="padding-right: 10px;" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedrocoelho2&layout=compact&theme=tokyonight" />
+</div>
 
 </p>
 
